@@ -93,7 +93,6 @@ export default function ListProduct({ sendData }: ListProductProps) {
               ? {
                   ...item,
                   quantity: item.quantity + selectedProduct.quantity,
-                  stock: item.stock + selectedProduct.stock,
                 }
               : item
           );
